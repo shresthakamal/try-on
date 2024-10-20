@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "try-on"
+version = "0.1.0"
+description = ""
+authors = ["kamal-shrestha <kamalandshrestha@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twilio = "^9.3.4"
+flask = "^3.0.3"
+requests = "^2.32.3"
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.2"
+gradio-client = "^1.4.0"
+python-dotenv = "^1.0.1"
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+python-multipart = "^0.0.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
